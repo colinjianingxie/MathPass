@@ -1,0 +1,1119 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06509C6D21DA86B2007F5C67 /* SolverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06509C6C21DA86B2007F5C67 /* SolverViewController.swift */; };
+		06509C7021DAB80A007F5C67 /* SubmissionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06509C6E21DAB80A007F5C67 /* SubmissionViewCell.swift */; };
+		06509C7121DAB80A007F5C67 /* SubmissionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06509C6F21DAB80A007F5C67 /* SubmissionViewCell.xib */; };
+		0655ACA321F3B6D00022BD48 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655ACA221F3B6D00022BD48 /* Notifications.swift */; };
+		0655ACA621F7BDF30022BD48 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0655ACA521F7BDF30022BD48 /* OnboardingViewController.swift */; };
+		0655ACAA21FE78420022BD48 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0655ACA921FE78420022BD48 /* StoreKit.framework */; };
+		065A2C8021D034280070C6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2C7F21D034280070C6FC /* AppDelegate.swift */; };
+		065A2C8221D034280070C6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2C8121D034280070C6FC /* ViewController.swift */; };
+		065A2C8521D034280070C6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065A2C8321D034280070C6FC /* Main.storyboard */; };
+		065A2C8721D0342B0070C6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065A2C8621D0342B0070C6FC /* Assets.xcassets */; };
+		065A2C8A21D0342B0070C6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065A2C8821D0342B0070C6FC /* LaunchScreen.storyboard */; };
+		065A2C9521D0342B0070C6FC /* MathPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2C9421D0342B0070C6FC /* MathPassTests.swift */; };
+		065A2CA021D0342B0070C6FC /* MathPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2C9F21D0342B0070C6FC /* MathPassUITests.swift */; };
+		065A2CB021D035290070C6FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CAF21D035290070C6FC /* GoogleService-Info.plist */; };
+		065A2CB321D0378B0070C6FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CB221D0378B0070C6FC /* MainViewController.swift */; };
+		065A2CB521D03F940070C6FC /* MainPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CB421D03F940070C6FC /* MainPopoverViewController.swift */; };
+		065A2CBF21D045280070C6FC /* TabSwitcherItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CBE21D045280070C6FC /* TabSwitcherItemsProvider.swift */; };
+		065A2CC121D0452A0070C6FC /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CC021D0452A0070C6FC /* TabItem.swift */; };
+		065A2CC421D046000070C6FC /* StubContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CC321D046000070C6FC /* StubContentViewController.swift */; };
+		065A2CC621D0461B0070C6FC /* ControllersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CC521D0461B0070C6FC /* ControllersProvider.swift */; };
+		065A2CC921D0477E0070C6FC /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CC721D0477E0070C6FC /* ExampleTableViewCell.xib */; };
+		065A2CCA21D0477E0070C6FC /* ExampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CC821D0477E0070C6FC /* ExampleTableViewCell.swift */; };
+		065A2CCC21D0611A0070C6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CCB21D0611A0070C6FC /* Main.storyboard */; };
+		065A2CD121D0966F0070C6FC /* SubmitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CCF21D0966F0070C6FC /* SubmitTableViewCell.swift */; };
+		065A2CD221D0966F0070C6FC /* SubmitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CD021D0966F0070C6FC /* SubmitTableViewCell.xib */; };
+		065A2CDA21D0972B0070C6FC /* PurchaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CD821D0972B0070C6FC /* PurchaseTableViewCell.swift */; };
+		065A2CDB21D0972B0070C6FC /* PurchaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CD921D0972B0070C6FC /* PurchaseTableViewCell.xib */; };
+		065A2CDE21D0973B0070C6FC /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CDC21D0973B0070C6FC /* ProfileTableViewCell.swift */; };
+		065A2CDF21D0973B0070C6FC /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CDD21D0973B0070C6FC /* ProfileTableViewCell.xib */; };
+		065A2CEF21D410AC0070C6FC /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 065A2CED21D410AC0070C6FC /* Slide.xib */; };
+		065A2CF021D410AC0070C6FC /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CEE21D410AC0070C6FC /* Slide.swift */; };
+		065A2CF321D410E40070C6FC /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CF221D410E40070C6FC /* StepOneViewController.swift */; };
+		065A2CF521D428460070C6FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CF421D428460070C6FC /* GradientView.swift */; };
+		065A2CF821D436F20070C6FC /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CF721D436F20070C6FC /* StepTwoViewController.swift */; };
+		065A2CFB21D437170070C6FC /* StepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065A2CFA21D437170070C6FC /* StepThreeViewController.swift */; };
+		0663DB6021D6BA46001C2051 /* ProblemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663DB5E21D6BA46001C2051 /* ProblemCellTableViewCell.swift */; };
+		0663DB6121D6BA46001C2051 /* ProblemCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0663DB5F21D6BA46001C2051 /* ProblemCellTableViewCell.xib */; };
+		0663DB6321D6BBE6001C2051 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663DB6221D6BBE5001C2051 /* FoldingCell.swift */; };
+		0685B41521D445E9007A1BEC /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685B41321D445E8007A1BEC /* SquareButton.swift */; };
+		0685B41621D445E9007A1BEC /* SquareButtonRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685B41421D445E8007A1BEC /* SquareButtonRight.swift */; };
+		0685B41921D4547D007A1BEC /* SubmissionCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685B41821D4547D007A1BEC /* SubmissionCompleteViewController.swift */; };
+		06BD424D21E6558B00A37124 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD424C21E6558B00A37124 /* IAPHandler.swift */; };
+		06BD425221E7B61F00A37124 /* GLInAppPurchaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD425021E7B61D00A37124 /* GLInAppPurchaseUI.swift */; };
+		06BD425421E7E0F700A37124 /* GLInAppPurchaseUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BD425321E7E0F700A37124 /* GLInAppPurchaseUI.xib */; };
+		06C94B0B21E0213600505A9B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C94B0A21E0213600505A9B /* LogInViewController.swift */; };
+		06C94B0E21E1225600505A9B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C94B0D21E1225600505A9B /* SignUpViewController.swift */; };
+		06C94B1121E1C11800505A9B /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C94B1021E1C11800505A9B /* EmailVerificationViewController.swift */; };
+		191399527412358676A7E2FB /* Pods_MathPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC81FFCF60EC0428613658CA /* Pods_MathPassUITests.framework */; };
+		8245FDB7BA9D7FA642593F8C /* Pods_MathPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782EADFC5289F0D97E09813D /* Pods_MathPass.framework */; };
+		B6B00B57BB84DBE731EFF519 /* Pods_MathPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED1C8DCB57A0869A417F34F /* Pods_MathPassTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065A2C9121D0342B0070C6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065A2C7421D034280070C6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065A2C7B21D034280070C6FC;
+			remoteInfo = MathPass;
+		};
+		065A2C9C21D0342B0070C6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065A2C7421D034280070C6FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065A2C7B21D034280070C6FC;
+			remoteInfo = MathPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06509C6C21DA86B2007F5C67 /* SolverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolverViewController.swift; sourceTree = "<group>"; };
+		06509C6E21DAB80A007F5C67 /* SubmissionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionViewCell.swift; sourceTree = "<group>"; };
+		06509C6F21DAB80A007F5C67 /* SubmissionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmissionViewCell.xib; sourceTree = "<group>"; };
+		0655ACA221F3B6D00022BD48 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		0655ACA521F7BDF30022BD48 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		0655ACA921FE78420022BD48 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0655ACAB21FFB0570022BD48 /* MathPass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathPass.entitlements; sourceTree = "<group>"; };
+		065A2C7C21D034280070C6FC /* MathPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065A2C7F21D034280070C6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		065A2C8121D034280070C6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		065A2C8421D034280070C6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065A2C8621D0342B0070C6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065A2C8921D0342B0070C6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065A2C8B21D0342B0070C6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065A2C9021D0342B0070C6FC /* MathPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065A2C9421D0342B0070C6FC /* MathPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathPassTests.swift; sourceTree = "<group>"; };
+		065A2C9621D0342B0070C6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065A2C9B21D0342B0070C6FC /* MathPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065A2C9F21D0342B0070C6FC /* MathPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathPassUITests.swift; sourceTree = "<group>"; };
+		065A2CA121D0342B0070C6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065A2CAF21D035290070C6FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		065A2CB221D0378B0070C6FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		065A2CB421D03F940070C6FC /* MainPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPopoverViewController.swift; sourceTree = "<group>"; };
+		065A2CBE21D045280070C6FC /* TabSwitcherItemsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSwitcherItemsProvider.swift; sourceTree = "<group>"; };
+		065A2CC021D0452A0070C6FC /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		065A2CC321D046000070C6FC /* StubContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubContentViewController.swift; sourceTree = "<group>"; };
+		065A2CC521D0461B0070C6FC /* ControllersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllersProvider.swift; sourceTree = "<group>"; };
+		065A2CC721D0477E0070C6FC /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		065A2CC821D0477E0070C6FC /* ExampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCell.swift; sourceTree = "<group>"; };
+		065A2CCB21D0611A0070C6FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		065A2CCF21D0966F0070C6FC /* SubmitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTableViewCell.swift; sourceTree = "<group>"; };
+		065A2CD021D0966F0070C6FC /* SubmitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubmitTableViewCell.xib; sourceTree = "<group>"; };
+		065A2CD821D0972B0070C6FC /* PurchaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTableViewCell.swift; sourceTree = "<group>"; };
+		065A2CD921D0972B0070C6FC /* PurchaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseTableViewCell.xib; sourceTree = "<group>"; };
+		065A2CDC21D0973B0070C6FC /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		065A2CDD21D0973B0070C6FC /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		065A2CED21D410AC0070C6FC /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		065A2CEE21D410AC0070C6FC /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		065A2CF221D410E40070C6FC /* StepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		065A2CF421D428460070C6FC /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		065A2CF721D436F20070C6FC /* StepTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		065A2CFA21D437170070C6FC /* StepThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeViewController.swift; sourceTree = "<group>"; };
+		0663DB5E21D6BA46001C2051 /* ProblemCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemCellTableViewCell.swift; sourceTree = "<group>"; };
+		0663DB5F21D6BA46001C2051 /* ProblemCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProblemCellTableViewCell.xib; sourceTree = "<group>"; };
+		0663DB6221D6BBE5001C2051 /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		0685B41321D445E8007A1BEC /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
+		0685B41421D445E8007A1BEC /* SquareButtonRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButtonRight.swift; sourceTree = "<group>"; };
+		0685B41821D4547D007A1BEC /* SubmissionCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionCompleteViewController.swift; sourceTree = "<group>"; };
+		06BD424C21E6558B00A37124 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
+		06BD425021E7B61D00A37124 /* GLInAppPurchaseUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLInAppPurchaseUI.swift; sourceTree = "<group>"; };
+		06BD425321E7E0F700A37124 /* GLInAppPurchaseUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLInAppPurchaseUI.xib; sourceTree = "<group>"; };
+		06C94B0A21E0213600505A9B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		06C94B0D21E1225600505A9B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		06C94B1021E1C11800505A9B /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
+		1ED1C8DCB57A0869A417F34F /* Pods_MathPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6FB3FC7B30228C498ADDE5 /* Pods-MathPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPassTests/Pods-MathPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D121C87802E8E01000086E1 /* Pods-MathPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPassTests/Pods-MathPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4711252489FBC87CF356BD0A /* Pods-MathPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPassUITests/Pods-MathPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60357F09E741EAAB4A992CB0 /* Pods-MathPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPassUITests/Pods-MathPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		782EADFC5289F0D97E09813D /* Pods_MathPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789FFEC5743A85791BB0A201 /* Pods-MathPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathPass/Pods-MathPass.release.xcconfig"; sourceTree = "<group>"; };
+		B8E09B0A383E036616D2AFC4 /* Pods-MathPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathPass/Pods-MathPass.debug.xcconfig"; sourceTree = "<group>"; };
+		FC81FFCF60EC0428613658CA /* Pods_MathPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065A2C7921D034280070C6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8245FDB7BA9D7FA642593F8C /* Pods_MathPass.framework in Frameworks */,
+				0655ACAA21FE78420022BD48 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C8D21D0342B0070C6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B00B57BB84DBE731EFF519 /* Pods_MathPassTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C9821D0342B0070C6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191399527412358676A7E2FB /* Pods_MathPassUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06509C6B21DA8696007F5C67 /* Solver */ = {
+			isa = PBXGroup;
+			children = (
+				06509C6C21DA86B2007F5C67 /* SolverViewController.swift */,
+				06509C6E21DAB80A007F5C67 /* SubmissionViewCell.swift */,
+				06509C6F21DAB80A007F5C67 /* SubmissionViewCell.xib */,
+			);
+			path = Solver;
+			sourceTree = "<group>";
+		};
+		0655ACA121F3B6B50022BD48 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0655ACA221F3B6D00022BD48 /* Notifications.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		0655ACA421F7BDDE0022BD48 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0655ACA521F7BDF30022BD48 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0655ACAC220B9EF10022BD48 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CC821D0477E0070C6FC /* ExampleTableViewCell.swift */,
+				065A2CC721D0477E0070C6FC /* ExampleTableViewCell.xib */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		0655ACAD220B9F0B0022BD48 /* Submit */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CCF21D0966F0070C6FC /* SubmitTableViewCell.swift */,
+				065A2CD021D0966F0070C6FC /* SubmitTableViewCell.xib */,
+			);
+			path = Submit;
+			sourceTree = "<group>";
+		};
+		0655ACAE220B9F1B0022BD48 /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CD821D0972B0070C6FC /* PurchaseTableViewCell.swift */,
+				065A2CD921D0972B0070C6FC /* PurchaseTableViewCell.xib */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		0655ACAF220B9F240022BD48 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CDC21D0973B0070C6FC /* ProfileTableViewCell.swift */,
+				065A2CDD21D0973B0070C6FC /* ProfileTableViewCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0655ACB0220B9F2E0022BD48 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				0663DB5E21D6BA46001C2051 /* ProblemCellTableViewCell.swift */,
+				0663DB5F21D6BA46001C2051 /* ProblemCellTableViewCell.xib */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		065A2C7321D034280070C6FC = {
+			isa = PBXGroup;
+			children = (
+				065A2C7E21D034280070C6FC /* MathPass */,
+				065A2C9321D0342B0070C6FC /* MathPassTests */,
+				065A2C9E21D0342B0070C6FC /* MathPassUITests */,
+				065A2C7D21D034280070C6FC /* Products */,
+				D67D13D644A41852CAEF5D77 /* Pods */,
+				380FBE7539C8451688AA7900 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		065A2C7D21D034280070C6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065A2C7C21D034280070C6FC /* MathPass.app */,
+				065A2C9021D0342B0070C6FC /* MathPassTests.xctest */,
+				065A2C9B21D0342B0070C6FC /* MathPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065A2C7E21D034280070C6FC /* MathPass */ = {
+			isa = PBXGroup;
+			children = (
+				0655ACAB21FFB0570022BD48 /* MathPass.entitlements */,
+				0655ACA421F7BDDE0022BD48 /* Onboarding */,
+				0655ACA121F3B6B50022BD48 /* Notifications */,
+				06BD424B21E6557700A37124 /* IAP */,
+				06509C6B21DA8696007F5C67 /* Solver */,
+				0685B41221D445C8007A1BEC /* Items */,
+				065A2CE421D159F10070C6FC /* BaseStoryboard */,
+				065A2CB121D037540070C6FC /* ViewControllers */,
+				065A2CF121D410B90070C6FC /* StepOne */,
+				065A2CF621D436DC0070C6FC /* StepTwo */,
+				065A2CF921D437040070C6FC /* StepThree */,
+				0685B41721D45461007A1BEC /* SubmissionComplete */,
+				06C94B0921E0211900505A9B /* LogIn */,
+				06C94B0C21E121DB00505A9B /* SignUp */,
+				06C94B0F21E1C0F200505A9B /* EmailVerification */,
+				065A2C8121D034280070C6FC /* ViewController.swift */,
+				065A2C7F21D034280070C6FC /* AppDelegate.swift */,
+				065A2CCB21D0611A0070C6FC /* Main.storyboard */,
+				065A2C8621D0342B0070C6FC /* Assets.xcassets */,
+				065A2C8821D0342B0070C6FC /* LaunchScreen.storyboard */,
+				065A2C8B21D0342B0070C6FC /* Info.plist */,
+				065A2CAF21D035290070C6FC /* GoogleService-Info.plist */,
+			);
+			path = MathPass;
+			sourceTree = "<group>";
+		};
+		065A2C9321D0342B0070C6FC /* MathPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				065A2C9421D0342B0070C6FC /* MathPassTests.swift */,
+				065A2C9621D0342B0070C6FC /* Info.plist */,
+			);
+			path = MathPassTests;
+			sourceTree = "<group>";
+		};
+		065A2C9E21D0342B0070C6FC /* MathPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				065A2C9F21D0342B0070C6FC /* MathPassUITests.swift */,
+				065A2CA121D0342B0070C6FC /* Info.plist */,
+			);
+			path = MathPassUITests;
+			sourceTree = "<group>";
+		};
+		065A2CB121D037540070C6FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CC221D045DA0070C6FC /* Tabs */,
+				065A2CB221D0378B0070C6FC /* MainViewController.swift */,
+				065A2CB421D03F940070C6FC /* MainPopoverViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		065A2CC221D045DA0070C6FC /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CD721D097040070C6FC /* TableViewCells */,
+				065A2CC521D0461B0070C6FC /* ControllersProvider.swift */,
+				065A2CC321D046000070C6FC /* StubContentViewController.swift */,
+				065A2CC021D0452A0070C6FC /* TabItem.swift */,
+				065A2CBE21D045280070C6FC /* TabSwitcherItemsProvider.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		065A2CD721D097040070C6FC /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0655ACAC220B9EF10022BD48 /* Example */,
+				0655ACAD220B9F0B0022BD48 /* Submit */,
+				0655ACAE220B9F1B0022BD48 /* Purchase */,
+				0655ACAF220B9F240022BD48 /* Profile */,
+				0655ACB0220B9F2E0022BD48 /* Problems */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		065A2CE421D159F10070C6FC /* BaseStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				065A2C8321D034280070C6FC /* Main.storyboard */,
+			);
+			path = BaseStoryboard;
+			sourceTree = "<group>";
+		};
+		065A2CF121D410B90070C6FC /* StepOne */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CEE21D410AC0070C6FC /* Slide.swift */,
+				065A2CED21D410AC0070C6FC /* Slide.xib */,
+				065A2CF221D410E40070C6FC /* StepOneViewController.swift */,
+			);
+			path = StepOne;
+			sourceTree = "<group>";
+		};
+		065A2CF621D436DC0070C6FC /* StepTwo */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CF721D436F20070C6FC /* StepTwoViewController.swift */,
+			);
+			path = StepTwo;
+			sourceTree = "<group>";
+		};
+		065A2CF921D437040070C6FC /* StepThree */ = {
+			isa = PBXGroup;
+			children = (
+				065A2CFA21D437170070C6FC /* StepThreeViewController.swift */,
+			);
+			path = StepThree;
+			sourceTree = "<group>";
+		};
+		0685B41221D445C8007A1BEC /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				0663DB6221D6BBE5001C2051 /* FoldingCell.swift */,
+				0685B41321D445E8007A1BEC /* SquareButton.swift */,
+				0685B41421D445E8007A1BEC /* SquareButtonRight.swift */,
+				065A2CF421D428460070C6FC /* GradientView.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		0685B41721D45461007A1BEC /* SubmissionComplete */ = {
+			isa = PBXGroup;
+			children = (
+				0685B41821D4547D007A1BEC /* SubmissionCompleteViewController.swift */,
+			);
+			path = SubmissionComplete;
+			sourceTree = "<group>";
+		};
+		06BD424B21E6557700A37124 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				06BD425321E7E0F700A37124 /* GLInAppPurchaseUI.xib */,
+				06BD425021E7B61D00A37124 /* GLInAppPurchaseUI.swift */,
+				06BD424C21E6558B00A37124 /* IAPHandler.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		06C94B0921E0211900505A9B /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				06C94B0A21E0213600505A9B /* LogInViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		06C94B0C21E121DB00505A9B /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				06C94B0D21E1225600505A9B /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		06C94B0F21E1C0F200505A9B /* EmailVerification */ = {
+			isa = PBXGroup;
+			children = (
+				06C94B1021E1C11800505A9B /* EmailVerificationViewController.swift */,
+			);
+			path = EmailVerification;
+			sourceTree = "<group>";
+		};
+		380FBE7539C8451688AA7900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0655ACA921FE78420022BD48 /* StoreKit.framework */,
+				782EADFC5289F0D97E09813D /* Pods_MathPass.framework */,
+				1ED1C8DCB57A0869A417F34F /* Pods_MathPassTests.framework */,
+				FC81FFCF60EC0428613658CA /* Pods_MathPassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67D13D644A41852CAEF5D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E09B0A383E036616D2AFC4 /* Pods-MathPass.debug.xcconfig */,
+				789FFEC5743A85791BB0A201 /* Pods-MathPass.release.xcconfig */,
+				3D121C87802E8E01000086E1 /* Pods-MathPassTests.debug.xcconfig */,
+				3A6FB3FC7B30228C498ADDE5 /* Pods-MathPassTests.release.xcconfig */,
+				60357F09E741EAAB4A992CB0 /* Pods-MathPassUITests.debug.xcconfig */,
+				4711252489FBC87CF356BD0A /* Pods-MathPassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065A2C7B21D034280070C6FC /* MathPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A2CA421D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPass" */;
+			buildPhases = (
+				D833D3439EC1144E9BE14A28 /* [CP] Check Pods Manifest.lock */,
+				065A2C7821D034280070C6FC /* Sources */,
+				065A2C7921D034280070C6FC /* Frameworks */,
+				065A2C7A21D034280070C6FC /* Resources */,
+				F9B80CBB7BD1D92577D89E44 /* [CP] Embed Pods Frameworks */,
+				22314229B140D8E76FA590AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathPass;
+			productName = MathPass;
+			productReference = 065A2C7C21D034280070C6FC /* MathPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065A2C8F21D0342B0070C6FC /* MathPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A2CA721D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPassTests" */;
+			buildPhases = (
+				693FC4E171212BBF5C758346 /* [CP] Check Pods Manifest.lock */,
+				065A2C8C21D0342B0070C6FC /* Sources */,
+				065A2C8D21D0342B0070C6FC /* Frameworks */,
+				065A2C8E21D0342B0070C6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065A2C9221D0342B0070C6FC /* PBXTargetDependency */,
+			);
+			name = MathPassTests;
+			productName = MathPassTests;
+			productReference = 065A2C9021D0342B0070C6FC /* MathPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065A2C9A21D0342B0070C6FC /* MathPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065A2CAA21D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPassUITests" */;
+			buildPhases = (
+				E93E7A69A73D14C406D63C7E /* [CP] Check Pods Manifest.lock */,
+				065A2C9721D0342B0070C6FC /* Sources */,
+				065A2C9821D0342B0070C6FC /* Frameworks */,
+				065A2C9921D0342B0070C6FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065A2C9D21D0342B0070C6FC /* PBXTargetDependency */,
+			);
+			name = MathPassUITests;
+			productName = MathPassUITests;
+			productReference = 065A2C9B21D0342B0070C6FC /* MathPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065A2C7421D034280070C6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Usay Youxue LLC";
+				TargetAttributes = {
+					065A2C7B21D034280070C6FC = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					065A2C8F21D0342B0070C6FC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 065A2C7B21D034280070C6FC;
+					};
+					065A2C9A21D0342B0070C6FC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 065A2C7B21D034280070C6FC;
+					};
+				};
+			};
+			buildConfigurationList = 065A2C7721D034280070C6FC /* Build configuration list for PBXProject "MathPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065A2C7321D034280070C6FC;
+			productRefGroup = 065A2C7D21D034280070C6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065A2C7B21D034280070C6FC /* MathPass */,
+				065A2C8F21D0342B0070C6FC /* MathPassTests */,
+				065A2C9A21D0342B0070C6FC /* MathPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065A2C7A21D034280070C6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A2C8A21D0342B0070C6FC /* LaunchScreen.storyboard in Resources */,
+				065A2CC921D0477E0070C6FC /* ExampleTableViewCell.xib in Resources */,
+				065A2CB021D035290070C6FC /* GoogleService-Info.plist in Resources */,
+				065A2CCC21D0611A0070C6FC /* Main.storyboard in Resources */,
+				065A2CEF21D410AC0070C6FC /* Slide.xib in Resources */,
+				065A2CD221D0966F0070C6FC /* SubmitTableViewCell.xib in Resources */,
+				06BD425421E7E0F700A37124 /* GLInAppPurchaseUI.xib in Resources */,
+				065A2CDB21D0972B0070C6FC /* PurchaseTableViewCell.xib in Resources */,
+				065A2C8721D0342B0070C6FC /* Assets.xcassets in Resources */,
+				065A2C8521D034280070C6FC /* Main.storyboard in Resources */,
+				0663DB6121D6BA46001C2051 /* ProblemCellTableViewCell.xib in Resources */,
+				06509C7121DAB80A007F5C67 /* SubmissionViewCell.xib in Resources */,
+				065A2CDF21D0973B0070C6FC /* ProfileTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C8E21D0342B0070C6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C9921D0342B0070C6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22314229B140D8E76FA590AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathPass/Pods-MathPass-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPass/Pods-MathPass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693FC4E171212BBF5C758346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D833D3439EC1144E9BE14A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93E7A69A73D14C406D63C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B80CBB7BD1D92577D89E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathPass/Pods-MathPass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/ColorMatchTabs/ColorMatchTabs.framework",
+				"${BUILT_PRODUCTS_DIR}/EMAlertController/EMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/TweeTextField/TweeTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorMatchTabs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweeTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathPass/Pods-MathPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065A2C7821D034280070C6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0655ACA321F3B6D00022BD48 /* Notifications.swift in Sources */,
+				0685B41521D445E9007A1BEC /* SquareButton.swift in Sources */,
+				06BD425221E7B61F00A37124 /* GLInAppPurchaseUI.swift in Sources */,
+				065A2CB321D0378B0070C6FC /* MainViewController.swift in Sources */,
+				065A2CD121D0966F0070C6FC /* SubmitTableViewCell.swift in Sources */,
+				065A2CB521D03F940070C6FC /* MainPopoverViewController.swift in Sources */,
+				065A2CDA21D0972B0070C6FC /* PurchaseTableViewCell.swift in Sources */,
+				0663DB6021D6BA46001C2051 /* ProblemCellTableViewCell.swift in Sources */,
+				065A2CC121D0452A0070C6FC /* TabItem.swift in Sources */,
+				065A2CF521D428460070C6FC /* GradientView.swift in Sources */,
+				065A2CFB21D437170070C6FC /* StepThreeViewController.swift in Sources */,
+				0663DB6321D6BBE6001C2051 /* FoldingCell.swift in Sources */,
+				065A2CF321D410E40070C6FC /* StepOneViewController.swift in Sources */,
+				065A2C8221D034280070C6FC /* ViewController.swift in Sources */,
+				065A2CBF21D045280070C6FC /* TabSwitcherItemsProvider.swift in Sources */,
+				065A2C8021D034280070C6FC /* AppDelegate.swift in Sources */,
+				065A2CDE21D0973B0070C6FC /* ProfileTableViewCell.swift in Sources */,
+				06BD424D21E6558B00A37124 /* IAPHandler.swift in Sources */,
+				065A2CF821D436F20070C6FC /* StepTwoViewController.swift in Sources */,
+				06509C6D21DA86B2007F5C67 /* SolverViewController.swift in Sources */,
+				0685B41921D4547D007A1BEC /* SubmissionCompleteViewController.swift in Sources */,
+				06509C7021DAB80A007F5C67 /* SubmissionViewCell.swift in Sources */,
+				065A2CC621D0461B0070C6FC /* ControllersProvider.swift in Sources */,
+				0655ACA621F7BDF30022BD48 /* OnboardingViewController.swift in Sources */,
+				065A2CF021D410AC0070C6FC /* Slide.swift in Sources */,
+				0685B41621D445E9007A1BEC /* SquareButtonRight.swift in Sources */,
+				06C94B1121E1C11800505A9B /* EmailVerificationViewController.swift in Sources */,
+				065A2CC421D046000070C6FC /* StubContentViewController.swift in Sources */,
+				06C94B0B21E0213600505A9B /* LogInViewController.swift in Sources */,
+				06C94B0E21E1225600505A9B /* SignUpViewController.swift in Sources */,
+				065A2CCA21D0477E0070C6FC /* ExampleTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C8C21D0342B0070C6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A2C9521D0342B0070C6FC /* MathPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065A2C9721D0342B0070C6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065A2CA021D0342B0070C6FC /* MathPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065A2C9221D0342B0070C6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065A2C7B21D034280070C6FC /* MathPass */;
+			targetProxy = 065A2C9121D0342B0070C6FC /* PBXContainerItemProxy */;
+		};
+		065A2C9D21D0342B0070C6FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065A2C7B21D034280070C6FC /* MathPass */;
+			targetProxy = 065A2C9C21D0342B0070C6FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065A2C8321D034280070C6FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065A2C8421D034280070C6FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065A2C8821D0342B0070C6FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065A2C8921D0342B0070C6FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065A2CA221D0342B0070C6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065A2CA321D0342B0070C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065A2CA521D0342B0070C6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E09B0A383E036616D2AFC4 /* Pods-MathPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MathPass/MathPass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		065A2CA621D0342B0070C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789FFEC5743A85791BB0A201 /* Pods-MathPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MathPass/MathPass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		065A2CA821D0342B0070C6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D121C87802E8E01000086E1 /* Pods-MathPassTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathPass.app/MathPass";
+			};
+			name = Debug;
+		};
+		065A2CA921D0342B0070C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6FB3FC7B30228C498ADDE5 /* Pods-MathPassTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathPass.app/MathPass";
+			};
+			name = Release;
+		};
+		065A2CAB21D0342B0070C6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60357F09E741EAAB4A992CB0 /* Pods-MathPassUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathPass;
+			};
+			name = Debug;
+		};
+		065A2CAC21D0342B0070C6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4711252489FBC87CF356BD0A /* Pods-MathPassUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KXUNPGCM;
+				INFOPLIST_FILE = MathPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UsayYouxue.MathPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065A2C7721D034280070C6FC /* Build configuration list for PBXProject "MathPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A2CA221D0342B0070C6FC /* Debug */,
+				065A2CA321D0342B0070C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065A2CA421D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A2CA521D0342B0070C6FC /* Debug */,
+				065A2CA621D0342B0070C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065A2CA721D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A2CA821D0342B0070C6FC /* Debug */,
+				065A2CA921D0342B0070C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065A2CAA21D0342B0070C6FC /* Build configuration list for PBXNativeTarget "MathPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A2CAB21D0342B0070C6FC /* Debug */,
+				065A2CAC21D0342B0070C6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065A2C7421D034280070C6FC /* Project object */;
+}

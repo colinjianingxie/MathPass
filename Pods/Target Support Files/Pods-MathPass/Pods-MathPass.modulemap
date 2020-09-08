@@ -1,0 +1,6 @@
+framework module Pods_MathPass {
+  umbrella header "Pods-MathPass-umbrella.h"
+
+  export *
+  module * { export * }
+}
